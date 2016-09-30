@@ -1,4 +1,4 @@
-pre-commit-styleline
+pre-commit-stylelint
 
 ================
 
@@ -14,6 +14,6 @@ For styleline: see https://github.com/stylelint/stylelint
 Add this to your `.pre-commit-config.yaml`:
 
     -   repo: git://github.com/alanmc/pre-commit-stylelint.git
-        sha: '0.0.1'  # Use the sha you want to point at
+        sha: '7.3.1'  # Use the sha you want to point at
         hooks:
         -   id: stylelint
